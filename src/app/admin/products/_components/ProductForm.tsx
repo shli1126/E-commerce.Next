@@ -1,12 +1,12 @@
 "use client"
 
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
+import { Input } from "../../../../components/ui/input"
+import { Label } from "../../../../components/ui/label"
 
 import { useState } from "react"
-import { formatCurrency } from "@/lib/formatters";
-import { Textarea } from "@/components/ui/textarea";
-import { Button } from "@/components/ui/button";
+import { formatCurrency } from "../../../../lib/formatters";
+import { Textarea } from "../../../../components/ui//textarea";
+import { Button } from "../../../../components/ui/button";
 import { addProduct, updateProduct } from "../../_actions/products";
 import { useFormState, useFormStatus } from "react-dom";
 import { Product } from "@prisma/client";
